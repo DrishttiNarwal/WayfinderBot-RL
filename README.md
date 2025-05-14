@@ -29,9 +29,16 @@ This project implements:
 ---
 
 ## 🗂️ Project Structure
-
-WayfinderBot/ ├── warehouserobot/ │ ├── learning_process.py # Q-learning algorithm │ ├── main.py # Visualization & simulation │ ├── q_values.npy # Saved Q-table │ └── utils/ (if any helper modules exist) ├── README.md # Project documentation └── requirements.txt # Dependencies
-
+```
+WayfinderBot/
+├── warehouserobot/
+│   ├── learning_process.py      # Q-learning training logic
+│   ├── main.py                  # Environment setup and simulation
+│   ├── q_values.npy             # Saved Q-table (after training)
+│   └── __init__.py              # (optional) makes it a Python package
+├── requirements.txt             # Python dependencies
+└── README.md                    # Project documentation
+```
 
 ---
 
@@ -74,3 +81,4 @@ WayfinderBot/ ├── warehouserobot/ │ ├── learning_process.py # Q-le
 | Hitting a Wall | -100     |
 
 ---
+
